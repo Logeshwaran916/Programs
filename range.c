@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int n;
-  scanf("%d",&n);
-  if((n > 0) && (n < 11))
+  int input;
+  scanf("%d",&input);
+  if((input > 0) && (input < 11))
   {
     printf("yes");
   }
