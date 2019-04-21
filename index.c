@@ -3,14 +3,14 @@ int main()
 {
   int n,i;
   scanf("%d",&n);
-  int arr[n];
+  int a[n];
   for(i=0;i<n;i++)
   {
-    scanf("%d",&arr[i]);
+    scanf("%d",&a[i]);
   }
   for(i=0;i<n;i++)
   {
-    printf("%d %d",arr[i],i);
+    printf("%d %d",a[i],i);
     printf("\n");
   }
   return 0;
