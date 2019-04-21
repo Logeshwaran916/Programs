@@ -3,26 +3,26 @@ int main()
 {
   int i,j,n,temp;
   scanf("%d",&n);
-  int arr[n];
+  int a[n];
   if(n <= 100000)
   {
     for(i=0;i<n;i++)
     {
-      scanf("%d",&arr[i]);
+      scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++)
     {
       for(j=i+1;j<n;j++)
       {
-        if(arr[i] > arr[j])
+        if(a[i] > a[j])
         {
-          temp=arr[i];
-          arr[i]=arr[j];
-          arr[j]=temp;
+          temp=a[i];
+          a[i]=a[j];
+          a[j]=temp;
         }
       } 
      }
-    printf("%d %d",arr[0],arr[n-1]);
+    printf("%d %d",a[0],a[n-1]);
    }
   return 0;
 }
