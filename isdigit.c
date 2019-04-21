@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  char c;
-  scanf("%c",&c);
-  if(isdigit(c) != 0)
+  char ch;
+  scanf("%c",&ch);
+  if(isdigit(ch) != 0)
   {
     printf("yes");
   }
