@@ -2,11 +2,11 @@
 #include<string.h>
 int main()
 {
-  char input[50],word=1,i;
-  gets(input);
-  for(i=0;input[i] !='\0' ;i++)
+  char str[50],word=1,i;
+  gets(str);
+  for(i=0;str[i] !='\0' ;i++)
   {
-  	if(input[i] == ' ')
+  	if(str[i] == ' ')
   	{
   		word++;
   	}
