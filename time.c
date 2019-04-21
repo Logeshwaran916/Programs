@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int hour,minute,input;
+  int hour,min,input;
   scanf("%d",&input);
   hour=input/60;
-  minute=input-(hour * 60);
-  printf("%d %d",hour,minute);
+  min=input-(hour * 60);
+  printf("%d %d",hour,min);
 }
