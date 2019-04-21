@@ -2,12 +2,12 @@
 int main()
 {
   int k,i;
-  char str[20];
-  gets(str);
+  char input[20];
+  gets(input);
   scanf("%d",&k);
   for(i=0;i<k;i++)
   {
-    puts(str);
+    puts(input);
   }
   return 0;
 }
