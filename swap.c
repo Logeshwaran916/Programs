@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int num1,num2,temp;
-  scanf("%d %d",&num1,&num2);
-  if((num1 <= 100000) && (num2 <= 100000))
+  int n1,n2,temp;
+  scanf("%d %d",&n1,&n2);
+  if((num1 <= 100000) && (n2 <= 100000))
   {
-    temp=num1;
-    num1=num2;
-    num2=temp;
+    temp=n1;
+    n1=n2;
+    n2=temp;
    }
-   printf("%d %d",num1,num2);
+   printf("%d %d",n1,n2);
     return 0;
 }
