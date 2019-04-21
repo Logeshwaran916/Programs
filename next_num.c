@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  int n;
-  scanf("%d",&n);
-  if(n <=100000)
+  int num;
+  scanf("%d",&num);
+  if(num <=100000)
   {
-    n++;
-    printf("%d",n);
+    num++;
+    printf("%d",num);
   }
   return 0;
 }
