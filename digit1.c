@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  int digit,i=0,remainder;
-  scanf("%d",&digit);
-  while(digit)
+  int n,i=0,remainder;
+  scanf("%d",&n);
+  while(n)
   {
-    remainder=digit%10;
-    digit=digit/10;
+    remainder=n%10;
+    n=n/10;
     i++;
   }
   printf("%d",i);
