@@ -2,16 +2,16 @@
 #include<ctype.h>
 int main()
 {
-  char str[20];
-  gets(str);
+  char s[20];
+  gets(s);
   int i,count_alp=0,count_num=0;
-  for(i=0;str[i] != '\0';i++)
+  for(i=0;s[i] != '\0';i++)
   {
-	if((str[i] >= 'A') && (str[i] <= 'z') )
+	if((s[i] >= 'A') && (s[i] <= 'z') )
 	{
 		count_alp=1;
 	}
-	else if((str[i] >= '0') && (str[i] <= '9') )
+	else if((s[i] >= '0') && (s[i] <= '9') )
 	{
 		count_num=1;
 	}
