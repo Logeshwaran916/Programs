@@ -1,11 +1,11 @@
 #<include<stdio.h>
 int main()
 {
-  int num,rem,count=0;
+  int num,remainder,count=0;
   scanf("%d",&num);
   while(num)
   {
-    rem=num%10;
+    remainder=num%10;
     if((num != 0) && (num != 1))
     {
       count++;
