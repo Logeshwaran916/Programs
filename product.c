@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int n,m,product;
+  int n,m,pct;
   scanf("%d %d",&n,&m);
-  product=n*m;
-  if(product % 2 == 0)
+  pct=n*m;
+  if(pct % 2 == 0) 
   {
     printf("Even");
   }
