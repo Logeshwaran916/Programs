@@ -9,8 +9,7 @@ int main()
   }
   else
   {
-    num=num-1;
-    printf("%d",num);
+    printf("%d",num-1);
   }
   return 0;
 }
