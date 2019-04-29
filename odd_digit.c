@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-  int N,remainder;
-  scanf("%d",&N);
-  if(N <= 100000)
+  int Num,remainder;
+  scanf("%d",&Num);
+  if(Num <= 100000)
   {
-    while(N)
+    while(Num)
     {
-      remainder=N%10;
+      remainder=Num%10;
       if(remainder % 2)
       {
         printf("%d\t",remainder);
       }
-      N=N/10;
+      Num=Num/10;
    }
   }
   return 0;
