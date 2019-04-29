@@ -2,18 +2,18 @@
 int main()
 {
   char str1[20],str2[20]={0},str3[20]={0};
-  int i,j=0,k=0;
+  int index,j=0,k=0;
   scanf("%s",str1);
-  for(i=0;str1[i] != '\0';i++)
+  for(index=0;str1[index] != '\0';index++)
   {
-    if(i % 2)
+    if(index % 2)
     {
-      str2[j] = str1[i];
+      str2[j] = str1[index];
       j++;
     }
     else
     {
-      str3[k] = str1[i];
+      str3[k] = str1[index];
       k++;
     }
   }
