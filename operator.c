@@ -2,13 +2,13 @@
 int main()
 {
   int input1,input2,ans;
-  char op;
-  scanf("%d %c %d",&input1,&op,&input2);
-  if(op == '/')
+  char operator;
+  scanf("%d %c %d",&input1,&operator,&input2);
+  if(operator == '/')
   {
     ans=input1/input2;
   }
-  else if(op == '%')
+  else if(operator == '%')
   {
     ans=input1%input2;
   }
