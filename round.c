@@ -2,10 +2,10 @@
 #include<math.h>
 int main()
 {
-  float input;
+  float num;
   int Number;
-  scanf("%f",&input);
-  Number=round(input);
+  scanf("%f",&num);
+  Number=round(num);
   printf("%d",Number);
   return 0;
 }
