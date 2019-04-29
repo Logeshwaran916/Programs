@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int N,K,product,index,square,flag=0;
-  scanf("%d %d",&N,&K);
-  product=N*K;
+  int Num,K,product,index,square,flag=0;
+  scanf("%d %d",&Num,&K);
+  product=Num*K;
   for(index=1;index<product;index++)
   {
     square=index*index;
