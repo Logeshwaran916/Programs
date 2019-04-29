@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  float Length,Breadth,area;
+  float Length,Breadth,a;
   scanf("%f %f",&Length,&Breadth);
-  area=Length*Breadth;
-  printf("%5f",area);
+  a=Length*Breadth;
+  printf("%5f",a);
   return 0;
   
 }
