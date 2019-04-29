@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-  int N,L,R,index,count=0;
+  int N,Left,R,index,count=0;
   scanf("%d",&N);
-  scanf("%d %d",&L,&R);
-  for(index=L;index<R;index++)
+  scanf("%d %d",&Left,&R);
+  for(index=Left;index<R;index++)
   {
     if(N == index)
     {
