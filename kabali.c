@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int kabalis_clan,opponents_clan,difference;
-  scanf("%d %d",&kabalis_clan,&opponents_clan);
-  difference=opponent's_clan-kabalis_clan;
+  int k_clan,o_clan,difference;
+  scanf("%d %d",&k_clan,&o_clan);
+  difference=o_clan-k_clan;
   printf("%d",difference);
  
   return 0;
