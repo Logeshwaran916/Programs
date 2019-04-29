@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  char str[20],i,len,count =0;
+  char str[20],index,len,count =0;
   scanf("%s",&str);
   len=strlen(str);
-  for(i=0;i<len;i++)
+  for(index=0;index<len;index++)
   {
-    if((str[i] == 'a') || (str[i] == 'e') || (str[i] == 'i') || (str[i] == 'o') || (str[i] == 'u'))
+    if((str[index] == 'a') || (str[index] == 'e') || (str[index] == 'i') || (str[index] == 'o') || (str[index] == 'u'))
     {
       count = 1;
     }
