@@ -2,18 +2,18 @@
 int main()
 {
   char input[20],str[20];
-  int i,j,len,count=0;
+  int index,j,len,count=0;
   scanf("%s",&input);
   len=strlen(input);
   j=len-1;
-  for(i=0;i<len;i++)
+  for(index=0;index<len;index++)
   {
-   str[i]=input[j];
+   str[index]=input[j];
    j--;
   }
-  for(i=0;i<len;i++)
+  for(index=0;index<len;index++)
   {
-    if(input[i] != str[i])
+    if(input[index] != str[index])
     {
       count = 1;
     }
