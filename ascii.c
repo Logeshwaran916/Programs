@@ -2,9 +2,9 @@
 int main()
 {
   int value;
-  char ch;
-  scanf("%c",&ch);
-  value=ch;
+  char character;
+  scanf("%c",&character);
+  value=character;
   printf("%d",value);
   return 0;
 }
