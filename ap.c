@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int A,B,C,Ap;
-  scanf("%d %d %d",&A,&B,&C);
-  Ap=C/2*(2*A+(B-1)*C);
-  printf("%d",Ap);
+  int a,b,c,sum_ap;
+  scanf("%d %d %d",&a,&b,&c);
+  sum_ap=c/2*(2*a+(b-1)*c);
+  printf("%d",sum_ap);
   return 0;
 }
