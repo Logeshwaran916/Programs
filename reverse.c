@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int digit,remainder,sum=0;
+  int digit,remainder,total=0;
   scanf("%d",&digit);
   while(digit)
   {
     remainder=digit%10;
-    sum=sum*10+remainder;
+    total=total*10+remainder;
     digit=digit/10;
   }
-  printf("%d",sum);
+  printf("%d",total);
   return 0;
 }
