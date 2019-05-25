@@ -9,4 +9,5 @@ int main()
     {
       gcd = i;
     }
+    printf("%d",gcd);
 }
