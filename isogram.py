@@ -1,12 +1,12 @@
-str=input()
+s=input()
 L=[]
 str1 = ''
-index = 0
-for index in str:
-  if index not in L:
-    L.append(index)
+i = 0
+for i in str:
+  if i not in L:
+    L.append(i)
 str1=''.join(L)
-Length1=len(str)
+Length1=len(s)
 Length2=len(str1)
 if(Length1 - Length2 == 0):
   print("yes")
