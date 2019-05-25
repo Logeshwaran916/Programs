@@ -10,5 +10,6 @@ int main()
     digit = digit / 10;
   }
   printf("%d",product);
+  printf("\n");
   return 0;
 }
