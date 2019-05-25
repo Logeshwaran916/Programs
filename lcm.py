@@ -7,5 +7,6 @@ else:
 while(1):
     if(min1 % a == 0 and min1 % b == 0):
         print("LCM is:", min1)
+        print("")
         break
     min1 = min1 + 1
